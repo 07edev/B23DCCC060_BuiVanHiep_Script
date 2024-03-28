@@ -1,0 +1,42 @@
+
+img{
+    
+    width: 150px;
+    height: 240px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+p{
+    text-align: center;
+    margin-top: -5px;
+ 
+}
+.phone{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.item{
+    width: 200px;
+    height: 290px;
+    border: 3px solid black;
+    border-radius: 10%;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+    transition:all 1s linear;
+    list-style: bold;
+    
+}
+.item:hover{
+    color: aquamarine;
+    border: 3px solid red;
+}
+h1{
+    display: inline-block;
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(to bottom,#ffcb6e,#ff8c80);
+    -webkit-background-clip: text;
+    background-clip:text;
+    margin-left: 750px;
+}

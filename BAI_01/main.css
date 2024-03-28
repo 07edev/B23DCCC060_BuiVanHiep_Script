@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    float: left;
+    
+}
+nav{
+    background-color: #428bca;
+    width: 100vw;
+    height: 30px;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    
+}
+nav a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 40px;
+    transition: all 1s linear;
+}
+.space{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+nav a:hover{
+    background-color:bisque;
+    color: black;
+}
+.date{
+    width: 100vw;
+    height: 40px;
+    background-color: #efefef;
+}
+.date p{
+    float: left;
+    padding-top: 11px;
+    padding-bottom: 9px;
+}
+.date input{
+    float: right;
+    width: 25%;
+    height:25px;
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+}
+.box1{
+    width:300px;
+    border:2px solid gray;
+    border-radius: 3px;
+    height: 1150px;
+}
+.hai{
+    display: block;
+    width: 300px;
+    background-color: #1f5f9e;
+    padding-left: 7px;
+}
+.hai li{
+    padding-top: 5px;
+    color: white;
+    
+}
+.box2{
+    width:1000px;
+    height: 760px;
+    
+    border:2px solid gray;
+    border-radius: 1%;
+
+}
+.box2 ul{
+    display: inline-block;
+    vertical-align: top;
+   
+}
+.text{
+    display:inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.text li:nth-child(2){
+    margin-top: 56px;
+}
+
+.pp h1{
+    color: #5784b6;
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+.pp p{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.private{
+    margin-top: 37px;
+}
+.all-box3{
+    border: 2px solid gray;
+    width: 1001px;
+}
+.box3{
+    width: 1000px;
+    background-color:#efefef;
+    float: left;
+    
+}
+.box3 p a{
+    background-color: #efefef;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 6px;
+    box-sizing: border-box;
+}
+.img-box3{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-top: 3px;
+   
+}
+
+.all-box3{
+    display: inline-block;
+    vertical-align: top;
+}
+.all-box3 ul li{
+
+    margin-top: 5px;
+    font-size: 20px;
+    color: #1c5d9c;
+    
+}
+.img-box3 {
+    display: inline-block;
+    vertical-align: top;
+}
+.img-box3 p{
+    margin-top: 20px;
+    font-size: 16.5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+.text2{
+    margin-top: 10px;
+    margin-left: 110px;
+    margin-right: 110px;
+    display:inline-block;
+    vertical-align: top;
+    
+}
+.text2 li{
+    margin-bottom: 70px;
+}
+.fix{
+  float: right;
+  
+}
+.text3{
+    margin-left:540px;
+}
+.box4{
+    width:365px;
+    height: 1430px;
+    
+    border:2px solid gray;
+    border-radius: 1%;
+}
+
+
