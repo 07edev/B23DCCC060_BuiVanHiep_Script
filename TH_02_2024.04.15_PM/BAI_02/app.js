@@ -6,7 +6,7 @@
 
 
 // tìm số lớn nhất
-const myArray =[-1,-2,4,1,5,7,3,9,55,8,25,100,21]
+const myArray =[-1,-2,4,1,5,7,3,9,55,8,25,100,15]
 function max() {
     const find = Math.max(...myArray)
     return find
@@ -41,7 +41,7 @@ function sumArray(arr) {
 }
 let arr = duong;
 let total = sumArray(arr);
-console.log(`Trung bình cộng của các số không âm là: ${total/range}`); 
+console.log(`Trung bình cộng của mảng đối với các số không âm là: ${total/range}`); 
 
 
 //Hàm tìm các số lớn hơn trung bình cộng của mảng
