@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-20%,-50%);
+}
+.container h1{
+    
+    margin-bottom: 15px;
+}
+.container li{
+    margin-left: 35px;
+}
+input{
+    min-width: 200px;
+    margin-top: 30px;
+}
+button{
+    width: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 7px;
+    transition: 0.4 linear;
+}
+button:hover{
+    background-color: rgba(127, 255, 212, 0.582);
+    color: rgb(32, 32, 31);
+}

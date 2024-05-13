@@ -1,0 +1,85 @@
+.slider{
+    width: 1300px;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+image{
+    object-fit: cover;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider .list img{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(25, 171, 197, 0.258);
+    color: #ffffff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+#prev::after{
+    content: "Back";
+    opacity: 0;
+    transition: 0.2s linear;
+}
+#prev:hover::after{
+    opacity: 1;
+}
+#next::after{
+    content: "Next";
+    opacity: 0;
+    transition: 0.2s linear;
+}
+#next:hover::after{
+    opacity: 1;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
