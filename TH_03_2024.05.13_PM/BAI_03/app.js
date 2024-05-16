@@ -15,7 +15,7 @@ prev.onclick = function(){
     reloadSlider();
 }
 
-let refreshInterval = setInterval(() => { next.click() }, 5000); // Thêm đoạn này để tự động chuyển ảnh sau mỗi 5 giây
+let refreshInterval = setInterval(() => { next.click() }, 5000); // Tự động chuyển ảnh sau mỗi 5 giây
 
 function reloadSlider(){
     slider.style.left = -items[active].offsetLeft + 'px';
@@ -25,7 +25,7 @@ function reloadSlider(){
     dots[active].classList.add('active');
 
     clearInterval(refreshInterval);
-    refreshInterval = setInterval(() => { next.click() }, 5000); // Thêm đoạn này để tự động chuyển ảnh sau mỗi 5 giây
+    refreshInterval = setInterval(() => { next.click() }, 5000);
 }
 
 dots.forEach((li, key) => {
