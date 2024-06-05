@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.titile{
+    position: relative;
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.titile:before{
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+.line{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.line::before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.line-text{
+    display: inline-block;
+    background-color:white;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+.icon{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 100px auto;
+    color: aquamarine;
+    
+}
+.icon::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: currentColor;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+.child{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon:hover{
+    color: black;
+    border-radius: 50%;
+    transition: all 0.6s linear;
+    
+}
+.icon:hover::after{
+    cursor: pointer;
+    background-color: currentColor;
+    opacity: 0.3;
+}
+.effect{
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    border: 1px solid orchid;
+    text-align: center;
+    font-size: 20px;
+    margin: 100px;
+    transition: color 0.25s linear;
+    position:relative;
+    z-index: 0;
+}
+.effect::before{
+    content: "";
+    height: 0;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    background-color: orange;
+    z-index: -1;
+    transition: all 0.25s linear;
+}
+.effect:hover::before{
+  height: 100%;
+  opacity: 0.8;
+}
+.effect:hover{
+    color: wheat;
+}
+    
