@@ -1,0 +1,9 @@
+p{
+    color: rebeccapurple;
+    background-color:wheat;
+    min-height: 200px;
+    max-width:50%;
+    min-width: 100px; 
+    /* nếu nội dung của thẻ p bị chàn trong box dùng thẻ overlow x hoặc y, x đại dienj cho trục ngang, y trục dọc */
+    /* overflow-x: hidden; */
+}

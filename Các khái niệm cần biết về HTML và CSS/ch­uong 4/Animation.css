@@ -1,0 +1,19 @@
+.box{
+    width: 10rem;
+    height: 10rem;
+    background-color: aquamarine;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: move 2s forwards infinite alternate cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(20rem);
+    }
+}
